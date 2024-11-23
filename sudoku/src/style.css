@@ -46,6 +46,7 @@
 
 .sudoku__panel-numbers-item {
     background-color: #c2e0e5;
+    position: relative;
 }
 
 .sudoku__panel-numbers {
@@ -118,9 +119,19 @@
 .sudoku__level-select-control {
     background-color: #c2e0e5;
     border: 1px solid #046172;
-    height: 27px;
+    height: 30px;
+    width: 30px;
 }
 
 .sudoku__select-wrapper-control {
-    width: 133px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.sudoku__panel-numbers-item-counter {
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
 }
