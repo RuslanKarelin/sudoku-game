@@ -135,3 +135,37 @@
     bottom: 2px;
     right: 2px;
 }
+
+.sudoku__panel-numbers-item--disabled {
+    opacity: 0.3;
+}
+
+.sudoku__info-panel {
+    display: none;
+    margin: 40px 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sudoku__info-panel--show {
+    display: flex;
+}
+
+.sudoku__message {
+    color: #0a6271;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.sudoku__reload-button {
+    background-image: url('./images/reload.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75%;
+    width: 30px;
+    height: 30px;
+    background-color: #c2e0e5;
+    border: 1px solid #046172;
+    margin: 0 10px;
+    cursor: pointer;
+}
